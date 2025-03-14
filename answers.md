@@ -16,13 +16,13 @@ How long did your code take for training and what is the time complexity of your
 Explain why you get this complexity (e.g., what does N stand for and how do your data structures/algorithms affect
 the complexity).
 
-The code took 0.738038 seconds long to train. The time complexity is O(N * M). The m and n stand for the average
+The code took 0.353488 seconds long to train. The time complexity is O(N * M). The m and n stand for the average
 number of words per tweet and the total number of tweets.
 
 How long did your code take for classification and what is the time complexity of your classification implementation 
 (Big-Oh notation)? Explain why.
 
-The testing time is about 6.892 which prints to console. The complexity is O(N^2). The first loop is O(MN) because 
+The testing time is about 5.189 which prints to console. The complexity is O(N^2). The first loop is O(MN) because 
 each line is tokenized. But there is another loop that goes through IDs N times and also iterates through each line 
 also N times. The complexity for this is O(N^2) which overrules O(MN).
 
